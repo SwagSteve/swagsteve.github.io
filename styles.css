@@ -11,7 +11,7 @@ header {
   top: 0;
   z-index: 999;
   background-color: #000000;
-  padding: 20px 40px; /* Increased padding */
+  padding: 20px 40px;
 }
 
 .navbar {
@@ -28,13 +28,13 @@ header {
 }
 
 .logo img {
-  max-height: 60px; /* Increased max-height */
+  max-height: 70px;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 30px; /* Increased gap */
+  gap: 24px;
   flex: 1;
   justify-content: center;
 }
@@ -46,7 +46,7 @@ header {
 .nav-links a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 18px; /* Increased font-size */
+  font-size: 18px;
 }
 
 section {
@@ -60,18 +60,18 @@ footer {
 }
 
 .landing {
-  background-image: url("assets/bg.png");
+  background-image: url("assets/bg-new.webp");
   background-size: cover;
   background-position: center;
-  height: 350px; /* Adjust the height as needed */
+  height: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .landing-logo {
-  max-width: 30%; /* Adjust the maximum width as needed */
-  min-width: 20%;
+  max-width: 50%;
+  min-width: 40%;
 }
 
 footer {
@@ -90,8 +90,6 @@ footer {
   justify-content: center;
   align-items: center;
 }
-
-/* Existing styles... */
 
 #plugin-list {
   display: flex;
@@ -112,7 +110,7 @@ footer {
   text-align: center;
   width: 300px;
   height: 350px;
-  margin-bottom: 40px; /* Added margin-bottom for space */
+  margin-bottom: 40px;
 }
 
 .block a {
@@ -152,7 +150,7 @@ footer {
 .download-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: rgba(162,0,255,1); /* Replace with your desired color */
+  background-color: rgb(200, 99, 160);
   color: #FFFFFF;
   text-decoration: none;
   border-radius: 5px;
